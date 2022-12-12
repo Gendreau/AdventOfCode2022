@@ -71,7 +71,7 @@ class Knot {
 			this.xpos += xDiff/2;
 			this.ypos += yDiff/2;
 		}
-		else if (Math.abs(xDiff) != Math.abs(yDiff)) {
+		else {
 			this.xpos += Integer.signum(xDiff);
 			this.ypos += Integer.signum(yDiff);
 		}
